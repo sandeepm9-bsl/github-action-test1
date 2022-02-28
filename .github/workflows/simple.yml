@@ -7,11 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: echo a string
-      run: echo "Hello Sandeep"
-      - name: multiline
-      script
+        run: echo "Hello Sandeep"
+      - name: multiline script
         run: |
-          node -v
-          npm -v
+            node -v
+            npm -v
          
      
